@@ -1,12 +1,3 @@
-////////////////////////////////////////////////////////////////////////////////////////////////////////////
-//                                                                                                        //
-//  My YouTube channel:                                                                                   //
-//  https://www.youtube.com/ArturPetrzak                                                                  //
-//                                                                                                        //
-//  Coded by Artur Petrzak in August 2017                                                                 //
-//                                                                                                        //
-////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
 #include <LedControl.h>
 #include "functions.h"
 #include "designs.h"

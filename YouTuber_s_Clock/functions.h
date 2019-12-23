@@ -1,12 +1,3 @@
-////////////////////////////////////////////////////////////////////////////////////////////////////////////
-//                                                                                                        //
-//  My YouTube channel:                                                                                   //
-//  https://www.youtube.com/ArturPetrzak                                                                  //
-//                                                                                                        //
-//  Coded by Artur Petrzak in August 2017                                                                 //
-//                                                                                                        //
-////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
 //15 means end of array
 int designSize(const uint8_t *data)
 {
@@ -27,4 +18,3 @@ int measureDigits(int number)
       return i;
   }
 }
-
