@@ -19,31 +19,19 @@ WiFiUDP ntpUDP;
 /*                                                                                   
                                       Youtuber's clock v1.0                                                                                                                                       
                                 Coded by Artur Petrzak in August 2017                                   
-                                                                                                        
-  My YouTube channel:                                                                                   
-  https://www.youtube.com/ArturPetrzak                                                                  
-                                                                                                         
-  Feel free to use it and share! But please credit me and my Youtube channel aswell.                   
-  Thank You!                                                                                           
-                                                                                                        
+                                                                                                                                                                                                                                   
   D1 mini WiFi ESP8266 pinout:                                                                       
     D8 - DataIn                                                                                       
     D7 - LOAD/CS                                                                                        
     D6 - CLK                                                                                          
-                                                                                                       
-  Designed for 8-digit 7 segment screen controlled by MAX7219.                                         
-  Example:                                                                                              
-  Aliexpress: http://bit.ly/2vaivKL                                                                     
-  Ebay: http://ebay.to/2ws48RD                                                                         
+                                                                                                                                                                                                        
+  It has been designed for 8-digit 7 segment screen controlled by MAX7219.
+  It should work on boards with ESP8266 module, but I have tested it only on D1 mini clone.
+  If You use another board You may need to change the pinout.
   
-  (These are reflinks. By using them You can support me a bit :))                                      
-  
-  It should work on boards with ESP8266 module, but I have tested it only on D1 mini clone.             
-  If You use another board You may need to change the pinout.                                           
-  
-  There is only a few delays used at the beginning of the code.                                        
-  I have programmed it using timers (especially in animations) so this program supports multitasking.   
-  With this, You can easyly add a new functions running in background etc.                             
+  There is only a few delays used at the beginning of the code.
+  I have programmed it using timers (especially in animations) so this code supports multitasking. 
+  With this, You can easily add a new functions running in background etc.                
   
   Consider supporting me if You like this project: https://paypal.me/ArturPetrzak                      
                                                                                                        
@@ -54,7 +42,7 @@ WiFiUDP ntpUDP;
     - YoutubeApi: https://github.com/witnessmenow/arduino-youtube-api
     - WiFiManager: https://github.com/tzapu/WiFiManager
     - LedControl: https://github.com/wayoda/LedControl
-    - ArduinoJson: https://github.com/bblanchon/ArduinoJson
+    - ArduinoJson (Version 5.13.5 - It won't compile on newer versions): https://github.com/bblanchon/ArduinoJson
     - ESP8266 (from Boards Manager. You need to add this URL: http://arduino.esp8266.com/stable/package_esp8266com_index.json
       first in Arduino IDE preferences -> Additional Boards Manager URLs. Then You will find ESP8266 in Boards Manager)
     
