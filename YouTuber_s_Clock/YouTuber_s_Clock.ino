@@ -99,7 +99,8 @@ void setup()
   WiFiManager wifiManager;
   wifiManager.setAPCallback(configModeCallback);
   wifiManager.autoConnect(deviceName);
-  timeClient.begin(); 
+  timeClient.begin();
+  client.setInsecure(); 
   
   while (WiFi.status() != WL_CONNECTED) 
     delay(500);
