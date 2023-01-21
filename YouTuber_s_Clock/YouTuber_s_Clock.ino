@@ -17,7 +17,7 @@
 WiFiUDP ntpUDP;
 
 /*                                                                                   
-                                      Youtuber's clock v1.0                                                                                                                                       
+                                      Youtuber's clock v1.1-rc.1                                                                                                                              
                                 Coded by Artur Petrzak in August 2017                                   
                                                                                                                                                                                                                                    
   D1 mini WiFi ESP8266 pinout:                                                                       
@@ -37,19 +37,33 @@ WiFiUDP ntpUDP;
                                                                                                        
   Needed libraries:
     You can download these libraries from library manager in Arduino IDE:
-    - NTPClient: https://github.com/arduino-libraries/NTPClient
-    - Time: https://github.com/PaulStoffregen/Time
-    - YoutubeApi: https://github.com/witnessmenow/arduino-youtube-api
-    - WiFiManager: https://github.com/tzapu/WiFiManager
-    - LedControl: https://github.com/wayoda/LedControl
-    - ArduinoJson (Version 5.13.5 - It won't compile on newer versions): https://github.com/bblanchon/ArduinoJson
-    - ESP8266 (from Boards Manager. You need to add this URL: http://arduino.esp8266.com/stable/package_esp8266com_index.json
+    - NTPClient (3.2.1): https://github.com/arduino-libraries/NTPClient
+    - Time (1.6.1): https://github.com/PaulStoffregen/Time
+    - YoutubeApi (2.0.0): https://github.com/witnessmenow/arduino-youtube-api
+    - WiFiManager (2.0.15-rc.1): https://github.com/tzapu/WiFiManager
+    - LedControl (1.0.6): https://github.com/wayoda/LedControl
+    - ArduinoJson (6.20.0): https://github.com/bblanchon/ArduinoJson
+    - ESP8266 (3.1.0) (from Boards Manager. You need to add this URL: http://arduino.esp8266.com/stable/package_esp8266com_index.json
       first in Arduino IDE preferences -> Additional Boards Manager URLs. Then You will find ESP8266 in Boards Manager)
     
     You need to download these libraries from github and put in Your Arduino libraries folder. 
-    - Timezone: https://github.com/JChristensen/Timezone  
-    - SimpleTimer: https://github.com/schinken/SimpleTimer
-                                                                                                                        
+    - Timezone (1.2.4): https://github.com/JChristensen/Timezone  
+    - SimpleTimer (Nov 6, 2018): https://github.com/schinken/SimpleTimer
+
+
+  Changelog:
+  21.01.2023 - version 1.1 released
+    - Updated libraries.
+    - Described compatible libraries versions.
+    - Support for Arduino IDE 2.0.3
+
+  Notes:
+  - On Arduino IDE 2.0.3 some of the libraries might not be possible to downlaod via Library manager. In this case go to github and download them manually.
+  For board choose: LOLIN(WEMOS) D1 mini (clone)
+
+  Bug:
+  - Nothing is displayed when YT subs should be displayed.
+
   Your settings here:
 */
 
