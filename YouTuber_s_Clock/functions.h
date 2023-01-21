@@ -17,4 +17,5 @@ int measureDigits(int number)
     if(number / pow(10,i) < 1)
       return i;
   }
+  return 0;
 }
